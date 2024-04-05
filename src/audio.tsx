@@ -6,7 +6,7 @@ import 'react-h5-audio-player/lib/styles.css';
 const Player = (props: { linkes: string }) => (
   <AudioPlayer
     style={{ borderRadius: 5 }}
-    autoPlay
+    autoPlay={false}
     src={props.linkes}
     onPlay={(e) => console.log(e, 'onPlay')}
     // other props here

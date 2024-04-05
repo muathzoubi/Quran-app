@@ -65,7 +65,7 @@ body {
   cursor: pointer;
   transition: 400ms transform, 400ms box-shadow, 400ms background-color;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  margin-bottom: 5px;
+  margin-bottom: 12px;
 }
 
 .cards .card p.tip {
